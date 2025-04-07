@@ -1,18 +1,19 @@
 <h1>SIEM - AZURE SENTINEL</h1>
 
 <h2>Descrição</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Projeto consiste em demonstrar na prática o número de ataques recebidos em tempo real a uma VM sem configurações de segurança. Através do monitoramento do Azure Sentinel, é possível criar alertas e definir métricas.
 <br />
 
 
 <h2>Ferramentas utilizadas</h2>
 
-- <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Azure Sentinel</b> 
+- <b>Log Analytics Workspace</b>
+- <b>KQL</b>
 
 <h2>Ambientes usados</h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>Windows 10 PRO VM</b> (21H2)
 
 <h2>Como foi feito:</h2>
 
